@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+.card-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    border-radius: 2.5rem;
+    overflow: hidden;
+    width: 25%;
+    background-color: white;
+}
+.hero-img {
+    width: 100%;
+}
+.card-des {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+h3 {
+    font-size: 2.5rem;
+    padding: 3rem 0 1.5rem;
+}
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+}
+.plan-section {
+    display: flex;
+    padding: 2rem;
+    position: relative;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1.5rem;
+    margin: 1rem 0;
+}
+.plan-section img {
+    width: 20%;
+}
+.price {
+    position: absolute;
+    top: 58%;
+    left: 28%;
+    font-size: 1.4rem;
+    color: hsl(224, 23%, 55%);
+}
+.plan-section strong {
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    font-size: 1.3rem;
+}
+.plan-section a {
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+    font-size: 1.3rem;
+}
+.plan-section a:hover {
+    color: hsl(245, 48%, 56%);
+    text-decoration: none;
+}
+button {
+    width: 100%;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: hsl(245, 48%, 56%);
+}
+.cancel {
+    font-size: 1.4rem;
+    margin: 2.5rem 0 3.5rem 0;
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+}
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+@media screen and (max-width: 920px) {
+    html {
+        font-size: 55%;
+    }
+    .card {
+        width: 80%;
+    }
+}
