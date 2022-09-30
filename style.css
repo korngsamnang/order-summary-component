@@ -90,6 +90,7 @@ button {
 }
 button:hover {
     background-color: hsl(245, 48%, 56%);
+    border-radius: 1rem;
 }
 .cancel {
     font-size: 1.4rem;
